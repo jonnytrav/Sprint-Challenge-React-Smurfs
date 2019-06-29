@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class SmurfForm extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className="SmurfForm">
+        <Link to="/">Back to Roster</Link>
         <form onSubmit={this.addSmurf}>
           <input
             onChange={this.handleInputChange}
