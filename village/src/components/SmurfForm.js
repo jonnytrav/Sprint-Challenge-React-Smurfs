@@ -29,7 +29,6 @@ class SmurfForm extends Component {
   render() {
     return (
       <div className="SmurfForm">
-        <Link to="/">Back to Roster</Link>
         <form onSubmit={this.addSmurf}>
           <input
             onChange={this.handleInputChange}
@@ -51,6 +50,7 @@ class SmurfForm extends Component {
           />
           <button type="submit">Add to the village</button>
         </form>
+        <Link to="/">Back to Roster</Link>
       </div>
     );
   }

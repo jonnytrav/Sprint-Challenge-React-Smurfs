@@ -6,3 +6,6 @@
   flex-flow: row wrap;
   justify-content: space-around;
 }
+.nav-link {
+  text-decoration: none;
+}

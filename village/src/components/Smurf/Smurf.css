@@ -1,0 +1,10 @@
+.smurf {
+  border: 2px solid darkblue;
+  background-color: lightblue;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 1.5%;
+}
+.smurf-name {
+  color: white;
+}
