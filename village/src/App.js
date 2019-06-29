@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 import "./App.css";
-import SmurfForm from "./components/SmurfForm";
+import SmurfForm from "./components/SmurfForm/SmurfForm";
 import Smurfs from "./components/Smurfs/Smurfs";
 
 class App extends Component {
