@@ -1,0 +1,21 @@
+.smurf-form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 32%;
+  margin: auto;
+  margin-bottom: 3%;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+  padding: 1.5%;
+}
+.input {
+  margin-bottom: 1.3%;
+}
+.button {
+  width: 25%;
+  margin: auto;
+  background-color: aliceblue;
+}
+.button:hover {
+  background-color: white;
+}
